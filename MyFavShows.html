@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Cartoons</title>
+    <link rel="stylesheet" href="MyfavShows.css" />   
 </head>
 <body>
     <h1>My Favorite Cartoons</h1>
     <h2>Bommi and Friends</h2>
-    <img src="Bommi_Friends.jpg" alt="Bommi and Friends" width="300" height="200">
-    <p>Bommi and Friends is a popular cartoon series that follows the adventures of Bommi!</p>
+    <div class="bommi-and-friends">
+        <img src="Bommi_Friends.jpg" alt="Bommi and Friends" width="800" height="350">
+        <p>Bommi and Friends is a popular cartoon series that follows the adventures of Bommi!</p>
+    </div>
     <h2>The Powerpuff Girls</h2>
-    <img src="Powerpuff_Girls.webp" alt="The Powerpuff Girls" width="300" height="200">
-    <p>The Powerpuff Girls is a classic cartoon series about three superhero sisters!</p>
+    <div class="powerpuff-girls">
+        <img src="Powerpuff_Girls.webp" alt="The Powerpuff Girls" width="450" height="350">
+        <p>The Powerpuff Girls is a classic cartoon series about three superhero sisters!</p>
+    </div>
     <h2>Danger School</h2>
-    <img src="Danger_School.jpg" alt="Danger School" width="300" height="200">
-    <p>Danger School is a fun cartoon series about a group of students learning about science and technology!</p>                           
-    <label for="favorite-cartoon">Which one was your favorite cartoon during your childhood?</label>
-    <select id="favorite-cartoon" name="favorite-cartoon">
-        <option value="bommi">Bommi and Friends</option>
-        <option value="powerpuff">The Powerpuff Girls</option>
-        <option value="danger">Danger School</option>
-    </select>
+    <div class="danger-school">
+        <img src="Danger_School.jpg" alt="Danger School" width="450" height="350">
+        <p>Danger School is a fun cartoon series about a group of students learning about science and technology!</p>
+    </div>
+    <div class="favorite-cartoon">                          
+        <label for="favorite-cartoon">Which one was your favorite cartoon during your childhood?</label>
+        <select id="favorite-cartoon" name="favorite-cartoon">
+            <option value="bommi">Bommi and Friends</option>
+            <option value="powerpuff">The Powerpuff Girls</option>
+            <option value="danger">Danger School</option>
+        </select>
+    </div>
 </body>
 </html>
